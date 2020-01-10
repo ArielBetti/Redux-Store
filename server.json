@@ -1,0 +1,66 @@
+{
+    "stock": [
+      {
+        "id": 1,
+        "amount": 3
+      },
+      {
+        "id": 2,
+        "amount": 5
+      },
+      {
+        "id": 3,
+        "amount": 2
+      },
+      {
+        "id": 4,
+        "amount": 1
+      },
+      {
+        "id": 5,
+        "amount": 5
+      },
+      {
+        "id": 6,
+        "amount": 10
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "title": "DevBlack",
+        "price": 4.22,
+        "image": "https://www.nerdstickers.com.br/arquivos/2019/11/Adesivo-Developer-Black-Nerd-Stickers-247x247.png"
+      },
+      {
+        "id": 2,
+        "title": "By Day",
+        "price": 4.90,
+        "image": "https://www.nerdstickers.com.br/arquivos/2019/11/Adesivo-Developer-by-day-Nerd-Stickers-247x247.png"
+      },
+      {
+        "id": 3,
+        "title": "Code Ninja",
+        "price": 5,
+        "image": "https://www.nerdstickers.com.br/arquivos/2019/11/Adesivo-Code-Ninja-Nerd-Stickers-247x247.png"
+      },
+      {
+        "id": 5,
+        "title": "Front Ninja",
+        "price": 3.87,
+        "image": "https://www.nerdstickers.com.br/arquivos/2019/11/Adesivo-Ninja-Color-Nerd-Stickers-247x247.png"
+      },
+      {
+        "id": 6,
+        "title": "StarDevops",
+        "price": 4.32,
+        "image": "https://www.nerdstickers.com.br/arquivos/2019/09/star-devoops-247x247.png"
+      },
+      {
+        "id": 4,
+        "title": "Titanic",
+        "price": 3.90,
+        "image": "https://www.nerdstickers.com.br/arquivos/2019/09/titanic-247x247.png"
+      }
+    ]
+  }
