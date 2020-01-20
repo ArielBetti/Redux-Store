@@ -2,10 +2,10 @@ import styled from 'styled-components';
 import { darken } from 'polished';
 
 export const ProductList = styled.ul`
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 
   li {
       display: flex;
@@ -13,6 +13,7 @@ export const ProductList = styled.ul`
       background-color: #FFF;
       border-radius: 6px;
       padding: 20px;
+      margin: 5px;
       transition: 350ms;
 
     img {
@@ -72,6 +73,5 @@ export const ProductList = styled.ul`
       transform: translateY(-5px);
       box-shadow: 0 10px 10px rgba(0,0,0, 0.3);
   }
-
 
 `;
