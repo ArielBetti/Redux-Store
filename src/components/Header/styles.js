@@ -3,12 +3,23 @@ import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
     
+    .ReduxIcon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 35px;
+            padding: 5px;
+        }
+    }
+
     a {
         text-decoration: none;
     }
     
-    h3 {
+    span {
         font-size: 2em;
+        font-weight: bold;
         color: #FFF;
     }
 

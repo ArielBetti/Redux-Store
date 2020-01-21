@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 import { AiFillShopping } from 'react-icons/ai';
+import reduxIcon from '../../assets/images/redux.svg';
 
 import { Container, Cart } from './styles';
 
@@ -10,8 +11,10 @@ function Header({ cartSize }) {
 
   return (
         <Container>
-            <Link to="/">
-                <h3>Redux || Store</h3>
+            <Link to="/" className="ReduxIcon">
+                <span>Redux</span>
+                <img src={reduxIcon} alt="Redux Icon"/>
+                <span>Store</span>
             </Link>
 
             <Cart to="/cart">

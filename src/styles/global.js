@@ -3,6 +3,8 @@ import { createGlobalStyle } from 'styled-components';
 import Wave from '../assets/images/wave.svg';
 
 export default createGlobalStyle`
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
     * {
         margin: 0;
         padding: 0;
